@@ -1,0 +1,33 @@
+
+/* header css style */
+.menu{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+ }
+
+ .logo{
+     color: yellowgreen;
+ }
+.all-nav{
+    padding-top: 5px;
+}
+ 
+ 
+ .link{
+     padding-right: 30px;
+     text-decoration: none;
+     color: lightgray;
+     font-weight: 700;
+ }
+ .sec-link{
+     background-color: yellowgreen;
+     text-decoration: none;
+     padding: 5px 15px;
+     border-radius: 5px;
+     color: #004861;
+     font-weight: 700;
+ 
+ }
+
+ 

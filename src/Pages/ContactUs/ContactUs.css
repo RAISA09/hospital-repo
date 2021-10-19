@@ -1,0 +1,19 @@
+/* contact css class */
+
+.contact{
+    background-image: url("../../images/2b41908a02bd4aee3d12686df4585af4.jpg");
+    height: 600px;
+    
+}
+.text{
+    color: black;
+    padding: 50px;
+    margin-left:300px ;
+    margin-right: 300px;
+}
+.carts{
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+}
