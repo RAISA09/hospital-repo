@@ -1,12 +1,13 @@
-import React from 'react';
+
 import { useParams } from 'react-router';
 
 // Doctor components Doctor js file
 const Doctor = () => {
-    const { serviceId } = useParams()
+    const { doctorId } = useParams()
+
     return (
         <div>
-            <h3>Name:{serviceId}</h3>
+            <h3>Name:{doctorId}</h3>
         </div>
     );
 };
