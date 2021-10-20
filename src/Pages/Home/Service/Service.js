@@ -5,7 +5,7 @@ import './Service.css'
 // service js file
 
 const Service = (props) => {
-    const { name, img, qualifications, description } = props.service
+    const { id, name, img, qualifications, description } = props.service
     return (
 
         <div className="col">
@@ -15,7 +15,7 @@ const Service = (props) => {
                     <h5 className="card-title">Name:{name}</h5>
                     <h5>Qualifications:{qualifications}</h5>
                     <p className="card-text">Description:{description.slice(0, 60)}</p>
-                    <Link to={`/Doctor/${name}`}>
+                    <Link to={`/Doctor/${id}`}>
                         <button className="btn">{name.toLowerCase()} details</button>
                     </Link>
                 </div>
